@@ -17,19 +17,19 @@ public class Department implements Serializable {
 		this.name = name;
 	}
 
-	private Integer getId() {
+	public Integer getId() {
 		return id;
 	}
 
-	private void setId(Integer id) {
+	public void setId(Integer id) {
 		this.id = id;
 	}
 
-	private String getName() {
+	public String getName() {
 		return name;
 	}
 
-	private void setName(String name) {
+	public void setName(String name) {
 		this.name = name;
 	}
 
